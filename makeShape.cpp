@@ -8,7 +8,7 @@ const int half = number / 2;
 
 int main()
 {
-    ofstream File("480x480.txt");
+    ofstream File("./480x480.txt");
     if (!File.is_open()) {
         cout << "file not opend\n";
         return 0;

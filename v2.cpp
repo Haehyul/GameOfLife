@@ -4,6 +4,7 @@
 int main(int argc, char *argv[])
 {
     if (argc < 5) {
+        // v2.exe 480 480 1 "./480x480.txt"
         std::cout << "<width><height><magnification><filePath>\n";
         return 0;
     }
